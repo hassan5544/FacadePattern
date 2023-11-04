@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using FacadePattern;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    public static void Main()
+    {
+        AudioManager manager = new AudioManager();
+        manager.PlayFilm();
+    }
+}
